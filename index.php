@@ -20,7 +20,7 @@
     <?php while($columna = mysqli_fetch_array( $resultado)){?>
 
     <ul class="menu">
-        <li> <a href=""> <?php echo $columna ['nombre'] ?></a></li> <br>     <!-- el "a" de aqui podira mandar a otra pestaña donde se generaria la orden, per solo esta por si acaso -->
+        <li> <a href=""> <?php echo $columna ['nombre'] ?></a></li> <br>     <!-- el "a" de aqui podira mandar a otra pestaña donde se generaria la orden, pero solo esta por si acaso -->
         <img id="img" src="images/<?php echo $columna ['imagen'] ?> "><br>
         <?php //echo $columna ['id'] ?> 
         CH = <?php echo $columna ['ch'] ?> <br>
